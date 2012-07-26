@@ -1,0 +1,38 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:padding="30dip"
+   		android:orientation="horizontal">
+   		<LinearLayout
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_gravity="center">
+			<TextView
+				android:text="Thanks to the following sources:"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginBottom="20dip"
+				android:textSize="24sp" />
+			<TextView
+				android:text="Tallteen86 from Neoseeker Gallery"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginBottom="15dip"
+				android:textSize="16sp" />
+			<TextView
+				android:text="EllyEllyElly and leehg5925 from Gamefaqs.com"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginBottom="15dip"
+				android:textSize="16sp" />
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

@@ -1,0 +1,247 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ScrollView01" 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" >
+	<LinearLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:padding="30dip"
+   		android:orientation="horizontal" >
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:layout_gravity="center" >
+			<TextView
+				android:text="Status Modifier Specialists"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginBottom="15dip"
+				android:textSize="24sp" />
+			<TextView
+				android:text="Dietician - Increases the character's HP"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Master - Increases the character's SP"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Gladiator - Increases the character's ATK"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Sentry - Increases the character's DEF"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Teacher - Increases the character's INT"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Physician - Increases the character's RES"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Marksman - Increases the character's HIT"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Coach - Increases the character's SPD"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="These specialists are capped at 19998 per slot, and stack"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:layout_marginBottom="15dip"
+				android:textSize="10sp"	/>
+<!-- commmmennnnntttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt -->
+			<TextView
+				android:text="Elemental Modifying Specialists"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginBottom="15dip"
+				android:textSize="24sp"	/>
+			<TextView
+				android:text="Firefighter - Raises the character's Fire affinity"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Aeronaut - Raises the character's Wind affinity"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Cryophile - Raises the character's Ice affinity"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="These specialists are effectively capped at 150 MECHANICS/FORMULA-WISE"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="10sp"	/>
+			<TextView
+				android:text="These specialist are effectively capped at 140 from the way it's effect is seen in the game"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:layout_marginBottom="15dip"
+				android:textSize="10sp"	/>
+<!-- commmmennnnntttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt -->
+			<TextView
+				android:text="Status Effect Specialists"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginBottom="15dip"
+				android:textSize="24sp"	/>
+			<TextView
+				android:text="Alchemist - Adds Poison to a character's attack"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Hypnotist - Adds Sleep to a character's attack"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Witch Doctor - Adds Paralyze to a character's attack"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Gangster - Adds Deprave to a character's attack"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Amnesiac - Adds Forget to a character's attack"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="These specialists are effectively capped at 100"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:layout_marginBottom="15dip"
+				android:textSize="10sp"	/>				
+<!-- commmmennnnntttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt -->
+			<TextView
+				android:text="Status Resistance Specialists"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginBottom="15dip"
+				android:textSize="24sp"	/>
+			<TextView
+				android:text="Pharmacist - Increases the character's Poison resistance"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Coffee Maker - Increases the character's Sleep resistance"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Social Worker - Increases the character's Deprave resistance"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Medicine Man - Increases the character's Paralyze resistance"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Psychologist - Increases the character's Forget resistance"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="These specialists are effectively capped at 100"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:layout_marginBottom="15dip"
+				android:textSize="10sp"	/>				
+<!-- commmmennnnntttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt -->
+			<TextView
+				android:text="Bonus Resistance Specialists"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginBottom="15dip"
+				android:textSize="24sp"	/>
+			<TextView
+				android:text="Statistician - Increases the character's EXP"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Broker - Increases the amount of HL you earn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Manager - Increases the amount of Mana the character earns"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Armsmaster - Increases the character's Weapon Mastery"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="14sp"	/>
+			<TextView
+				android:text="Statiscian, Brokers, and Managers are effectively capped at 300%, whereas Armsmaster is effectively capped
+				at 1900% PER CHARACTER."
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left"
+				android:textSize="10sp"	/>
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>
